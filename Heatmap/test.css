@@ -1,0 +1,25 @@
+
+#container {
+    position: relative;
+    display: inline-block;
+    font-family:sans-serif;
+}
+#title
+{
+  text-align:center;
+  font-size: 12px;
+}
+svg {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#tooltip {
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+}

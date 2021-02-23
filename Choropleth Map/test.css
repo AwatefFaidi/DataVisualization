@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box
+}
+body {
+  margin: 0;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: Roboto, Arial;
+}
+.d3-container {
+  padding-top: 1rem
+}
+#map {
+  
+  
+}
+.counties {
+  fill: none
+}
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round
+}
+.tooltip {
+  color: black;
+  position: absolute;
+  padding: 2px;
+  font-family:	Arial;
+  font-size:12px;
+  background: #fbcf61;
+ 
+  border: 0;
+  border-radius: 2px;
+  pointer-events: none
+}
+#source {
+  align-self: flex-end;
+  margin-top: 1rem
+}
+.county:hover {
+  
+}
+a {
+  text-decoration: none
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    padding: .5rem;
+  }
+  #map {
+    width: 75vw !important;
+  }
+  #legend {
+    width: 18vw !important;
+  }
+}
